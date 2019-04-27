@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { connectableObservableDescriptor } from 'rxjs/internal/observable/ConnectableObservable';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ProgramApp';
+
+  constructor() {
+
+
+  }
 }
+
+
+
